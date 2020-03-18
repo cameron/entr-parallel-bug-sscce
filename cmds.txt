@@ -1,0 +1,2 @@
+ls watch_me | entr echo "watch_me changed"
+ls watch_me | entr echo "watch_me changed" >> entr.out
